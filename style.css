@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header_background{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+    background: center no-repeat url(img/1.jpg);
+    background-size: cover;
+}
+
+.container{
+    
+    width: 1100px;
+}
+
+nav{
+    padding-top: 7px;
+    display: flex;
+}
+
+nav div a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 30px;
+    font-family: 'Bellota', cursive;
+}
+
+nav div a:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    padding-left: 20px;
+}
+
+.nav{
+    padding-left: 495px;
+}
+
+.section_history{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section_grey{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #2a47954d;
+}
+
+.section_white{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_h2{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.text{
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.text span{
+    color: red;
+}
+
+.block{
+    display: flex;
+}
+
+.photo{
+    width: 525px;
+}
+
+.photo_white{
+    padding-left: 50px;
+}
+
+.photo img{
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.about_grey{
+    padding-left: 50px;
+    width: 525px;
+}
+
+.about_white{
+    width: 525px;
+}
+
+.about h2{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: red;
+    padding: 50px 0 0 0;
+    margin: 0;
+    
+}
+
+.about h3, p{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo{
+    width: 100%;
+}
+
+.footer_logo h2{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social a i{
+    color: black;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/*******************Photo*****************/
+.photo_section{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.gallery_img img{
+    width: 360px;
+    height: 250px;
+}
+
+/****************************Contact************************/
+.section_contact{
+    display: flex;
+    justify-content: center;
+}
+
+.section_contact h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.contact_text{
+    margin-top: 40px;
+}
+
+/******************************Video***********************/
+.section_video{
+    display: flex;
+    justify-content: center;
+}
+
+.section_video h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
